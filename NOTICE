@@ -1,0 +1,52 @@
+Contsy
+Copyright 2026 Karol Kosciolek
+
+Contsy's own code is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by the Free
+Software Foundation, version 3 only (SPDX: GPL-3.0-only). See LICENSE.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+Some files keep the licenses of the projects they come from:
+- engine/models/musetalk and engine/pipelines/musetalk.py include adaptations
+  from MuseTalk, Copyright (c) 2024 Tencent Music Entertainment Group, under the
+  MIT License (LICENSES/MIT.txt).
+- engine/models/whisper.py (OpenAI Whisper, MIT License) and
+  engine/models/sd_unet.py (the Stable Diffusion UNet of diffusers, Apache
+  License 2.0) were first written as adaptations from LatentSync,
+  Copyright (c) 2024 Bytedance Ltd. and/or its affiliates, Apache License 2.0
+  (LICENSES/Apache-2.0.txt).
+- engine/models/ezaudio includes adaptations from EzAudio, Copyright (c) 2025
+  Jiarui Hai, from U-ViT (its long skip connections), Copyright (c) 2022 Fan
+  Bao, from stable-audio-tools, Copyright (c) 2023 Stability AI, and from
+  BigVGAN, Copyright (c) 2022 NVIDIA Corporation, all under the MIT License,
+  and a transformer block from PixArt-alpha, Copyright 2024 Junsong Chen,
+  Jincheng Yu, Enze Xie, Apache License 2.0.
+  Contsy's changes to all of these are under GPL-3.0-only.
+- engine/models/rife follows the RIFE 4.7 network of Practical-RIFE,
+  Copyright (c) 2021 hzwer, MIT License (LICENSES/MIT.txt).
+- engine/sampling/ddim.py computes DDIM as the DDIMScheduler of diffusers,
+  Copyright The HuggingFace Team, Apache License 2.0.
+- engine/kernels/sage contains the Triton kernels of SageAttention,
+  Copyright 2024 Jintao Zhang, Haofeng Huang (SageAttention team), Apache
+  License 2.0 (LICENSES/Apache-2.0.txt), unchanged from
+  https://github.com/thu-ml/SageAttention at commit d1a57a546c3d.
+- engine/formats/ggml.py reads the GGUF block formats as ggml defines them,
+  Copyright (c) 2023-2024 The ggml authors, MIT License (LICENSES/MIT.txt).
+  See THIRD_PARTY_NOTICES.md for the authors and other engine components.
+- The navigation icons in app/ui_theme.py follow the geometry of Lucide icons,
+  Copyright (c) 2026 Lucide Icons and Contributors, ISC License
+  (LICENSES/ISC-Lucide.txt).
+
+This repository contains no third-party model weights, engine binaries or Python
+packages. The installer downloads them from their upstream sources and they keep
+their own licenses: see THIRD_PARTY_NOTICES.md, MODEL_LICENSES.md and
+docs/LICENSING.md.
+
+Background sound uses the EzAudio-XL weights (MIT License) with Google's
+FLAN-T5-XL text encoder (Apache License 2.0). Lip sync uses the MuseTalk 1.5
+weights with OpenAI's Whisper tiny and Stability AI's sd-vae-ft-mse, all under
+the MIT License. See THIRD_PARTY_NOTICES.md and MODEL_LICENSES.md for the
+sources.

@@ -1,0 +1,37 @@
+# Versions verified in the local validation environment.
+# PyTorch (CUDA) is installed separately by install.bat.
+
+gradio==6.30.0
+huggingface_hub==2.3.0
+requests==2.34.2
+# The optional Agent page (app/agent_claude.py): Claude through the official SDK, used only with the owner's own API key.
+# jiter and sniffio are its two small additions; httpx2, pydantic and opentelemetry-api come with Gradio and VoxCPM.
+anthropic==2.10.0
+jiter==0.19.0
+sniffio==1.3.1
+psutil==7.2.2
+nvidia-ml-py==13.615.71
+Pillow==12.3.0
+piexif==1.1.3
+truststore==0.10.5
+soundfile==0.14.0
+librosa==1.0.0  # pitch of imported voice samples (app/voices.py)
+av==19.0.2  # video and audio for the own engine (FFmpeg libraries inside the wheel)
+numpy==2.5.2
+# Network classes, tokenizers and weight readers tested with this engine. The installer includes
+# these pins in its constraints so later dependency installation preserves the tested versions.
+diffusers==0.42.0
+transformers==5.20.2
+tokenizers==0.23.3
+safetensors==0.8.0
+gguf==0.19.0
+sentencepiece==0.2.2
+einops==0.8.2
+scipy==1.18.1
+# Compiles the engine's GPU kernels (SageAttention, FP8 helpers); the Windows build of Triton for torch 2.14.1.
+triton-windows==3.8.0.post29; sys_platform == "win32"
+# Indirect dependencies (VoxCPM, Hugging Face Hub) kept at runtime-compatible versions; see SECURITY.md
+# for the known advisories.
+datasets==3.6.0
+filelock==4.2.6
+fsspec==2025.3.0

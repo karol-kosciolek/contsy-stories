@@ -1,0 +1,508 @@
+{
+ "version": 1,
+ "clips": [
+  {
+   "id": "A_02_s10_boy",
+   "file": "clips/A_02_s10_boy.mp4",
+   "episode": "02",
+   "start": 69.8,
+   "end": 78.8,
+   "defects": [
+    "A"
+   ],
+   "cast": [],
+   "must_show": [
+    "Lumi's burrow at night"
+   ],
+   "note": "A boy walks out at the end of the shot.",
+   "expect": "fail"
+  },
+  {
+   "id": "B_02_s08_flat",
+   "file": "clips/B_02_s08_flat.mp4",
+   "episode": "02",
+   "start": 54.8,
+   "end": 62.8,
+   "defects": [
+    "B",
+    "I"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "Lumi's burrow"
+   ],
+   "note": "Plain orange backdrop.",
+   "expect": "fail"
+  },
+  {
+   "id": "C_04_s07_shell",
+   "file": "clips/C_04_s07_shell.mp4",
+   "episode": "04",
+   "start": 45.0,
+   "end": 52.5,
+   "defects": [
+    "C"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a puddle",
+    "a leaf"
+   ],
+   "note": "Lumi grows a shell.",
+   "expect": "fail"
+  },
+  {
+   "id": "C_03_s08_back",
+   "file": "clips/C_03_s08_back.mp4",
+   "episode": "03",
+   "start": 56.8,
+   "end": 64.8,
+   "defects": [
+    "C"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a flower pot"
+   ],
+   "note": "Belly patch on Lumi's back.",
+   "expect": "fail"
+  },
+  {
+   "id": "D_04_s04_grey",
+   "file": "clips/D_04_s04_grey.mp4",
+   "episode": "04",
+   "start": 22.5,
+   "end": 30.0,
+   "defects": [
+    "D"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "a puddle"
+   ],
+   "note": "Barley grey, not in the cast.",
+   "expect": "fail"
+  },
+  {
+   "id": "D_04_s08_grey",
+   "file": "clips/D_04_s08_grey.mp4",
+   "episode": "04",
+   "start": 52.5,
+   "end": 60.0,
+   "defects": [
+    "D",
+    "F"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "leaves floating on a puddle"
+   ],
+   "note": "Barley grey, not in the cast.",
+   "expect": "fail"
+  },
+  {
+   "id": "D_07_s07_grey",
+   "file": "clips/D_07_s07_grey.mp4",
+   "episode": "07",
+   "start": 45.0,
+   "end": 52.5,
+   "defects": [
+    "D"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "a pool with the moon"
+   ],
+   "note": "Barley grey.",
+   "expect": "fail"
+  },
+  {
+   "id": "E_03_s06_blue",
+   "file": "clips/E_03_s06_blue.mp4",
+   "episode": "03",
+   "start": 37.0,
+   "end": 46.9,
+   "defects": [
+    "E"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a flower pot by a round window"
+   ],
+   "note": "Whole shot turns blue.",
+   "expect": "fail"
+  },
+  {
+   "id": "F_04_s09_water",
+   "file": "clips/F_04_s09_water.mp4",
+   "episode": "04",
+   "start": 60.0,
+   "end": 67.5,
+   "defects": [
+    "F",
+    "D"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "a small puddle"
+   ],
+   "note": "The puddle is a lake; characters on the water.",
+   "expect": "fail"
+  },
+  {
+   "id": "F_05_s08_float",
+   "file": "clips/F_05_s08_float.mp4",
+   "episode": "05",
+   "start": 55.0,
+   "end": 62.5,
+   "defects": [
+    "F"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a kite"
+   ],
+   "note": "Lumi floats.",
+   "expect": "fail"
+  },
+  {
+   "id": "F_07_s09_pool",
+   "file": "clips/F_07_s09_pool.mp4",
+   "episode": "07",
+   "start": 60.0,
+   "end": 67.5,
+   "defects": [
+    "F"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "a small pool"
+   ],
+   "note": "Pool becomes a stone basin.",
+   "expect": "fail"
+  },
+  {
+   "id": "G_05_s02_kite",
+   "file": "clips/G_05_s02_kite.mp4",
+   "episode": "05",
+   "start": 7.5,
+   "end": 15.0,
+   "defects": [
+    "G"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a kite"
+   ],
+   "note": "The kite turns into a red squid.",
+   "expect": "fail"
+  },
+  {
+   "id": "G_08_s02_wand",
+   "file": "clips/G_08_s02_wand.mp4",
+   "episode": "08",
+   "start": 7.5,
+   "end": 15.0,
+   "defects": [
+    "G"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a bubble wand",
+    "soap bubbles"
+   ],
+   "note": "The bubble wand goes through the face.",
+   "expect": "fail"
+  },
+  {
+   "id": "G_08_s08_bubbles",
+   "file": "clips/G_08_s08_bubbles.mp4",
+   "episode": "08",
+   "start": 52.5,
+   "end": 60.0,
+   "defects": [
+    "G"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "soap bubbles"
+   ],
+   "note": "Bubbles become noise.",
+   "expect": "fail"
+  },
+  {
+   "id": "H_06_s06_snowman",
+   "file": "clips/H_06_s06_snowman.mp4",
+   "episode": "06",
+   "start": 37.5,
+   "end": 45.5,
+   "defects": [
+    "H"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a snowman"
+   ],
+   "note": "The snowman.",
+   "expect": "fail"
+  },
+  {
+   "id": "H_06_s07_owl",
+   "file": "clips/H_06_s07_owl.mp4",
+   "episode": "06",
+   "start": 45.5,
+   "end": 53.0,
+   "defects": [
+    "H"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [
+    "a snowman"
+   ],
+   "note": "The snowman becomes a white owl.",
+   "expect": "fail"
+  },
+  {
+   "id": "H_06_s03_house",
+   "file": "clips/H_06_s03_house.mp4",
+   "episode": "06",
+   "start": 15.0,
+   "end": 22.5,
+   "defects": [
+    "H"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "Lumi's burrow"
+   ],
+   "note": "The house is wooden here.",
+   "expect": "fail"
+  },
+  {
+   "id": "H_06_s10_house",
+   "file": "clips/H_06_s10_house.mp4",
+   "episode": "06",
+   "start": 69.0,
+   "end": 77.0,
+   "defects": [
+    "H"
+   ],
+   "cast": [],
+   "must_show": [
+    "Lumi's burrow"
+   ],
+   "note": "The house is mossy here.",
+   "expect": "fail"
+  },
+  {
+   "id": "I_01_s09_static",
+   "file": "clips/I_01_s09_static.mp4",
+   "episode": "01",
+   "start": 61.5,
+   "end": 69.0,
+   "defects": [
+    "I"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [],
+   "note": "Front-facing, nearly still.",
+   "expect": "fail"
+  },
+  {
+   "id": "I_04_s01_static",
+   "file": "clips/I_04_s01_static.mp4",
+   "episode": "04",
+   "start": 0.0,
+   "end": 7.5,
+   "defects": [
+    "I",
+    "K"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [
+    "a mossy path"
+   ],
+   "note": "Title over the face; little motion.",
+   "expect": "fail"
+  },
+  {
+   "id": "J_07_s08_crop",
+   "file": "clips/J_07_s08_crop.mp4",
+   "episode": "07",
+   "start": 52.5,
+   "end": 60.0,
+   "defects": [
+    "J"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [],
+   "note": "The camera runs off the characters.",
+   "expect": "fail"
+  },
+  {
+   "id": "J_07_s10_crop",
+   "file": "clips/J_07_s10_crop.mp4",
+   "episode": "07",
+   "start": 67.5,
+   "end": 75.0,
+   "defects": [
+    "J"
+   ],
+   "cast": [
+    "lumi",
+    "barley"
+   ],
+   "must_show": [],
+   "note": "The camera runs off the characters.",
+   "expect": "fail"
+  },
+  {
+   "id": "K_01_s01_title",
+   "file": "clips/K_01_s01_title.mp4",
+   "episode": "01",
+   "start": 0.0,
+   "end": 8.0,
+   "defects": [
+    "K"
+   ],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [],
+   "note": "Title burned in the middle of the frame.",
+   "expect": "fail"
+  },
+  {
+   "id": "good_05_s07",
+   "file": "clips/good_05_s07.mp4",
+   "episode": "05",
+   "start": 47.0,
+   "end": 55.0,
+   "defects": [],
+   "cast": [
+    "barley"
+   ],
+   "must_show": [],
+   "note": "A good shot.",
+   "expect": "pass"
+  },
+  {
+   "id": "good_06_s04",
+   "file": "clips/good_06_s04.mp4",
+   "episode": "06",
+   "start": 22.5,
+   "end": 30.0,
+   "defects": [],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [],
+   "note": "A good shot.",
+   "expect": "pass"
+  },
+  {
+   "id": "good_06_s05",
+   "file": "clips/good_06_s05.mp4",
+   "episode": "06",
+   "start": 30.0,
+   "end": 37.5,
+   "defects": [],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [],
+   "note": "A good shot.",
+   "expect": "pass"
+  },
+  {
+   "id": "good_08_s03",
+   "file": "clips/good_08_s03.mp4",
+   "episode": "08",
+   "start": 15.0,
+   "end": 22.5,
+   "defects": [],
+   "cast": [
+    "lumi"
+   ],
+   "must_show": [],
+   "note": "A good shot.",
+   "expect": "pass"
+  }
+ ],
+ "audio": [
+  {
+   "id": "audio_03_0_40",
+   "file": "clips/audio_03_0_40.m4a",
+   "episode": "03",
+   "start": 0.0,
+   "end": 40.0,
+   "defects": [
+    "L",
+    "M",
+    "N"
+   ],
+   "note": "Narration starts 0.3 s after each cut; ambience changes; quiet gaps."
+  },
+  {
+   "id": "audio_06_20_60",
+   "file": "clips/audio_06_20_60.m4a",
+   "episode": "06",
+   "start": 20.0,
+   "end": 60.0,
+   "defects": [
+    "L",
+    "M",
+    "N"
+   ],
+   "note": "Ambience only about 4 dB under the narrator."
+  }
+ ]
+}

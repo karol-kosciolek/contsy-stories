@@ -1,0 +1,14 @@
+{
+  "engine": {},
+  "app": {
+    "host": "127.0.0.1",
+    "port": 7860,
+    "open_browser": true,
+    "source_url": ""
+  },
+  "paths": {
+    "models_dir": "models",
+    "outputs_dir": "outputs",
+    "history_dir": "history"
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "92c5459d49e2",
+ "name": "Lumi and the Lantern Woods",
+ "logline": "A tiny teal creature called Lumi and a big, sleepy-eyed lavender owl called Barley have gentle, cozy little adventures in the Lantern Woods.",
+ "world": "The Lantern Woods: a soft, mossy forest where fireflies glow like tiny lanterns at dusk. Two recurring places: Lumi's Burrow, a round-doored home inside a mossy hill with a warm lamp, an armchair, a patchwork quilt and a round window; and the Clearing, a grassy open space among tall old trees with a mossy path, ferns and a soft stream.",
+ "rules": "NARRATOR ONLY: one warm storyteller tells every episode; the characters NEVER speak, so no lip sync and no speech bubbles. Nothing scary, nothing fast, no slapstick, no crowds, no on-screen text except the episode title card. Each episode is a complete, self-contained little story with one tiny problem and a warm ending; never mention earlier episodes. Only the named characters appear on screen: Lumi and (when the story needs him) Barley, no other animals or people. Every shot shows ONE simple, clearly visible action with a slow, gentle camera move; characters are seen in medium shots or close-ups, never tiny or far away. Keep hands out of fiddly tasks. Lumi is small and always shorter than Barley; Lumi always wears the yellow bobble hat; Barley always wears his red bow tie.",
+ "tone": "Warm, cozy, bedtime-friendly, for ages 3 to 7; soft humour from the narration and simple pictures; a one-line moral or a soft smile at the end.",
+ "narration_style": "Narrated in short, slow, simple sentences. Each episode: set the scene, one tiny problem, a few gentle beats, a warm ending with a soft moral. 9 to 11 calm shots of 7-8 seconds, about 170 words of narration, one narration sentence per shot. Soft ambience under the narration (birds, crickets, rain, a crackling fire), always quieter than the narrator.",
+ "look": "cartoon_3d",
+ "format": "16:9",
+ "narration": "narrator",
+ "audience": "kids",
+ "language": "English",
+ "narrator_voice": "julia",
+ "places": [
+  {
+   "id": "p8bd6bd174052",
+   "slug": "lumi_s_burrow",
+   "name": "Lumi's Burrow",
+   "kind": "location",
+   "description": "A cozy round room inside a mossy hill: warm golden lamp light, a round wooden door, one round window with a view of green leaves, a soft patchwork quilt, a small armchair, a round rug and a little shelf. No people, no text."
+  },
+  {
+   "id": "p6f86ec5a1c73",
+   "slug": "the_clearing",
+   "name": "The Clearing",
+   "kind": "location",
+   "description": "A grassy clearing in the Lantern Woods: tall old trees all around, a soft mossy path, green ferns, small white flowers, gentle sunbeams through the leaves, a calm little stream. No people, no text."
+  }
+ ],
+ "characters": [
+  {
+   "name": "Lumi",
+   "role": "main",
+   "kind": "creature",
+   "description": "A small, round, soft teal-blue creature like a plush toy: round body, big cream-colored belly patch, two round ears, big dark friendly eyes, tiny nose, short little arms and legs. Wears a round yellow knitted bobble hat.",
+   "personality": "Gentle, curious, kind; a little shy and always cheerful.",
+   "colors": "teal-blue body, cream belly, yellow bobble hat",
+   "outfit": "yellow knitted bobble hat with a pom-pom",
+   "voice": "",
+   "id": "c52802fd6c273",
+   "slug": "lumi"
+  },
+  {
+   "name": "Barley",
+   "role": "side",
+   "kind": "creature",
+   "description": "A big, round, soft lavender-grey owl like a plush toy: round fluffy body, a cream-colored belly and face disc, huge round yellow eyes, small orange beak, rounded wings. Always wears a small red bow tie.",
+   "personality": "Wise, sleepy, kind and a little bit silly; moves slowly.",
+   "colors": "lavender-grey feathers, cream belly and face, red bow tie",
+   "silhouette": "Big plump round body, much taller than Lumi, with two small ear tufts and rounded wings.",
+   "outfit": "A small red bow tie under the beak, always worn.",
+   "marks": "Red bow tie, huge round yellow eyes.",
+   "voice": "",
+   "slug": "barley",
+   "id": "c1ac612d741fe",
+   "outfits": []
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "_class_name": "WanTransformer3DModel",
+  "_comment": "Wan 2.1 image-to-video 14B (480p), the base of InfiniteTalk: Wan 2.2 I2V A14B's config with the CLIP image embedder (image_dim) and the image key/value branch of the cross-attention (added_kv_proj_dim).",
+  "added_kv_proj_dim": 5120,
+  "attention_head_dim": 128,
+  "cross_attn_norm": true,
+  "eps": 1e-06,
+  "ffn_dim": 13824,
+  "freq_dim": 256,
+  "image_dim": 1280,
+  "in_channels": 36,
+  "num_attention_heads": 40,
+  "num_layers": 40,
+  "out_channels": 16,
+  "patch_size": [
+    1,
+    2,
+    2
+  ],
+  "pos_embed_seq_len": null,
+  "qk_norm": "rms_norm_across_heads",
+  "rope_max_seq_len": 1024,
+  "text_dim": 4096,
+  "_source": {
+    "repo": "Wan-AI/Wan2.1-I2V-14B-480P-Diffusers",
+    "path": "transformer/config.json"
+  }
+}

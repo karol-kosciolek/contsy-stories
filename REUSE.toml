@@ -1,0 +1,37 @@
+version = 1
+
+# Files that cannot carry an SPDX header. Python sources and .bat scripts carry their own.
+[[annotations]]
+path = [
+  "README.md", "NOTICE", "CONTRIBUTING.md", "SECURITY.md", "MODEL_LICENSES.md", "THIRD_PARTY_NOTICES.md",
+  "docs/**", ".github/**", "config/**", "requirements.txt", "REUSE.toml",
+  ".gitignore", ".gitattributes",
+]
+SPDX-FileCopyrightText = "2026 Karol Kosciolek"
+SPDX-License-Identifier = "GPL-3.0-only"
+
+# Model configuration files copied from the Hugging Face repositories named in the "_source"
+# field of each file; they are data owned by the respective model authors (Apache-2.0).
+[[annotations]]
+path = "engine/models/configs/**"
+SPDX-FileCopyrightText = "The authors of the respective models (see _source in each file)"
+SPDX-License-Identifier = "Apache-2.0"
+
+# SageAttention's Triton kernels, vendored unchanged from thu-ml/SageAttention (each file also carries this header).
+[[annotations]]
+path = ["engine/kernels/sage/attn_qk_int8_per_block.py", "engine/kernels/sage/quant_per_block.py"]
+SPDX-FileCopyrightText = "2024 SageAttention team (Jintao Zhang, Haofeng Huang)"
+SPDX-License-Identifier = "Apache-2.0"
+
+# Reference numbers and token ids produced for the engine's tests, and the shot-quality regression set
+# (tests/fixtures/quality): short AI-generated clips and pictures made with this app, with their labels.
+[[annotations]]
+path = "tests/fixtures/**"
+SPDX-FileCopyrightText = "2026 Karol Kosciolek"
+SPDX-License-Identifier = "GPL-3.0-only"
+
+# Synthetic voices generated with VoxCPM2 from text alone (docs/LICENSING.md, "Resolved").
+[[annotations]]
+path = "assets/voices/**"
+SPDX-FileCopyrightText = "2026 Karol Kosciolek"
+SPDX-License-Identifier = "GPL-3.0-only"

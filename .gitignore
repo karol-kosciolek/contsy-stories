@@ -1,0 +1,50 @@
+# Python environment
+venv/
+venv.preserved_*/
+__pycache__/
+*.pyc
+
+# Engine and models (downloaded by the installer / model manager; models/.cache holds compiled GPU kernels)
+/models/
+outputs/
+
+# Local data (characters, photos, imported voices, series, music, queue, user settings) - never commit
+characters/
+/character_drafts/
+/items/
+/item_drafts/
+/voices/
+/series/
+/music/
+queue_files/
+/timeline_projects/
+/agent_runs/
+config/agent_credentials.json
+config/agent_settings.json
+config/settings.local.json
+config/queue.json
+config/queue.tmp
+config/user_prefs.json
+config/verified_models.json
+history/
+*.log
+
+# Manual backups and measurements
+/animation_samples/
+repair-backup-*/
+performance-*/
+
+# Results and weights - in case they end up outside the folders above
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.mp4
+# ...except the short regression clips of the shot-quality tests
+!/tests/fixtures/quality/clips/*.mp4
+*.zip
+*.tmp
+.pytest_cache/
+
+# Temporary files from verification runs
+/tmp/
