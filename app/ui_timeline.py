@@ -2597,7 +2597,9 @@ def build_timeline_tab(tab: gr.Tab):
                  show_progress="hidden")
     # The owner's styles are made on the Styles page: the list is read again on every visit (above) and when the page
     # loads (Timeline is the start page, so a browser reload selects no tab). No inputs: it runs only on load.
-    gr.on(None, lambda: gr.update(choices=style_library.choices()), outputs=style, queue=False,
+    # The list keeps the page's starting style (a new project's, Realistic): Contsy Stories leaves Realistic out unless
+    # it is the selected value, and without it opening a project failed with "realistic is not in the list of choices".
+    gr.on(None, lambda: gr.update(choices=style_library.choices(_NEW_PROJECT.style)), outputs=style, queue=False,
           api_visibility="private", show_progress="hidden")
     # The same for the page's other lists: a browser reload shows the projects, universes, cast and items of now, not
     # the ones from when the server built the page
