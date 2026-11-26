@@ -145,6 +145,24 @@ class ShellTests(unittest.TestCase):
                              return_value=GpuInfo(True, "NVIDIA GeForce RTX 4070", total_gb=16.0,
                                                   free_gb=9.5)):
             demo = main.build_ui()
+            # Every list the page refreshes on load keeps the value it starts with: Gradio refuses an input whose
+            # value is not among its choices (the Editor's Style once lost Realistic, so no project could be opened).
+            checked = 0
+            for fn in demo.fns.values():
+                # only the page-load refreshes: a click handler without inputs may pause the queue and the like
+                if (fn.inputs or not fn.outputs or fn.fn is None or not fn.targets
+                        or any(event != "load" for _, event in fn.targets)):
+                    continue
+                result = fn.fn()
+                updates = result if isinstance(result, tuple) else (result,)
+                for block, update in zip(fn.outputs, updates):
+                    if (isinstance(block, gr.Dropdown) and isinstance(update, dict) and "choices" in update
+                            and "value" not in update and block.value not in (None, "", [])):
+                        values = {c[1] if isinstance(c, (tuple, list)) else c for c in update["choices"]}
+                        starting = block.value if isinstance(block.value, list) else [block.value]
+                        self.assertLessEqual(set(starting), values, block.elem_id or block.label)
+                        checked += 1
+            self.assertGreater(checked, 0)
         # top-level pages only: a page may hold its own tabs (Voices: Women / Men)
         tabs = {b.id for b in demo.blocks.values() if isinstance(b, gr.Tab)
                 and getattr(getattr(b, "parent", None), "elem_id", None) == "pages"}
